@@ -10,7 +10,7 @@ const Navbar = () => {
 
 
   return (
-    <div className='px-8 py-6 flex flex-row items-center justify-between md:px-14'>
+    <div className='absolute w-full px-8 py-6 flex flex-row items-center justify-between md:px-14'>
         <div className='logo font-bold flex flex-row text-xl'>
             <h1 className=''>Learn</h1>
             <h1 className='text-primary-color'>Script.</h1>
@@ -42,13 +42,13 @@ const Navbar = () => {
         </svg>
 
         <div className={`${menuOpen ? 'flex flex-col fixed bg-white shadow-lg right-0 top-0 h-screen w-3/4 z-40 justify-center items-center gap-6' : 'hidden'}`}>
-            <svg onClick={handleOpen} className='h-6 w-6 absolute top-8 right-8' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-            </svg>
             <a href="">Courses</a>
             <a href="">Pricing</a>
             <a href="">TeachScript</a>
             <a href="">FAQ</a>
+            <svg onClick={handleOpen} className='w-6 h-6 right-8 top-8' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
         </div>
     </div>
   )
