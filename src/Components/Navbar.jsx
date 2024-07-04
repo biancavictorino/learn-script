@@ -10,13 +10,13 @@ const Navbar = () => {
 
 
   return (
-    <div className='absolute w-full px-8 py-6 flex flex-row items-center justify-between md:px-14'>
+    <div className='absolute w-full px-8 py-6 flex flex-row items-center justify-between md:px-20'>
         <div className='logo font-bold flex flex-row text-xl'>
             <h1 className=''>Learn</h1>
             <h1 className='text-primary-color'>Script.</h1>
         </div>
 
-        <div className='px-9 md:px-0'>
+        <div className='px-3 md:px-0'>
 
         </div>
         <div className='hidden md:flex md:flex-row gap-24 font-light items-center'>
@@ -33,9 +33,9 @@ const Navbar = () => {
                 </form>
             </div>
         </div>
-        <div className='flex flex-row gap-4 items-center text-sm'>
-            <a href="" className='text-primary-color font-medium'>Login</a>
-            <button className='text-primary-color border rounded-full py-2 px-4 border-primary-color'>Join For Free</button>
+        <div className='flex flex-row gap-2 items-center text-sm'>
+            <a href="" className='hidden md:flex text-primary-color font-medium'>Login</a>
+            <button className='text-primary-color border rounded-full py-2 px-4 border-primary-color text-xs'>Join For Free</button>
         </div>
         <svg onClick={handleOpen} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 md:hidden">
             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
