@@ -1,6 +1,7 @@
 import React from 'react'
 import { category1 } from '../Data/Category1'
 import { category2 } from '../Data/Category2'
+import PrimaryButton from './PrimaryButton'
 
 const FeaturedCategories = () => {
   return (
@@ -30,7 +31,7 @@ const FeaturedCategories = () => {
         <div className='flex flex-col-reverse gap-4 lg:flex-row-reverse'>
             <div className='flex flex-col text-center justify-center items-center bg-white text-text-color shadow-xl p-8 rounded-3xl gap-4 lg:w-1/2 lg:gap-6'>
                 <p className='font-light lg:text-xl'>Whether you're a complete beginner or looking to refine your skills, we have something for everyone.</p>
-                <button className='bg-primary-color text-white rounded-full font-md py-2 w-2/5 shadow-lg shadow-primary-color'>Enroll Now</button>
+                <PrimaryButton text={"Enroll Now"}/>
             </div>
             <div className='flex flex-row gap-4 lg:w-1/2'>
                 {

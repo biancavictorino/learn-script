@@ -3,7 +3,7 @@ import { Learner } from '../Data/Learner'
 
 const Learners = () => {
   return (
-    <div className='px-8 py-16 lg:px-20 lg:py-24 flex flex-col items-center'>
+    <div className='px-8 py-16 lg:px-20 lg:py-36 flex flex-col items-center'>
         <div className='flex flex-col items-center text-center'>
             <h1 className='text-2xl text-primary-color'><span className='font-bold'><span className='text-text-color'>Learn</span>Script</span> Success Stories: </h1>
             <h1 className='text-2xl text-primary-color text-center'>Learners Like You, Achieving Coding Dreams!</h1>
