@@ -14,11 +14,14 @@ const FeaturedCategories = () => {
             <div className='flex flex-row gap-4 lg:w-1/2'>
                 {
                     category1.map(cat1 => (
-                        <div className='w-1/2 shadow-lg rounded-3xl pb-6'>
-                            <img className='lg:w-full' src={cat1.image} alt="" />
-                            <h1 className='font-semibold px-5 pt-3'>{cat1.title}</h1>
-                            <p className='font-light text-sm px-5 pb-3 text-pretty'>{cat1.description}</p>
-                            <div className='flex justify-center'>
+                        <div className='w-1/2 shadow-lg rounded-3xl pb-6 flex flex-col justify-between h-full'>
+                            <div className='flex flex-col flex-grow'>
+                                <img className='lg:w-full' src={cat1.image} alt="" />
+                                <h1 className='font-semibold px-5 pt-3'>{cat1.title}</h1>
+                                <p className='font-light text-sm px-5 pb-3 text-pretty'>{cat1.description}</p>
+                            </div>
+
+                            <div className='flex justify-center mt-auto'>
                             <button className='border border-primary-color rounded-full py-2 flex w-5/6 items-center justify-center text-primary-color font-medium text-sm'>{cat1.action}</button>
                             </div>
                         </div>
@@ -36,12 +39,17 @@ const FeaturedCategories = () => {
             <div className='flex flex-row gap-4 lg:w-1/2'>
                 {
                     category2.map(cat2 => (
-                        <div className='w-1/2 shadow-lg rounded-3xl pb-6'>
-                            <img className='lg:w-full' src={cat2.image} alt="" />
-                            <h1 className='font-semibold px-5 pt-3'>{cat2.title}</h1>
-                            <p className='font-light text-sm px-5 pb-3 text-pretty'>{cat2.description}</p>
-                            <div className='flex justify-center'>
-                            <button className='border border-primary-color rounded-full py-2 flex w-5/6 items-center justify-center text-primary-color font-medium text-sm'>{cat2.action}</button>
+                        <div className='w-1/2 shadow-lg rounded-3xl pb-6 flex flex-col justify-between h-full'>
+                            <div className='flex flex-col flex-grow'>
+                                <img className='lg:w-full' src={cat2.image} alt="" />
+                                <h1 className='font-semibold px-5 pt-3'>{cat2.title}</h1>
+                                <p className='font-light text-sm px-5 pb-3 text-pretty'>{cat2.description}</p>
+                                <div className='flex justify-center'>
+                            </div>
+
+                            <div className='flex justify-center mt-auto'>
+                                <button className='border border-primary-color rounded-full py-2 flex w-5/6 items-center justify-center text-primary-color font-medium text-sm'>{cat2.action}</button>
+                            </div>
                             </div>
                         </div>
                     ))
