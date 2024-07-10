@@ -9,7 +9,7 @@ const Courses = () => {
             <h1 className='text-2xl font-semibold text-primary-color text-center md:text-left md:w-2/3'>Level Up Your Skills. Explore Our Comprehensive Course Library.</h1>
             <div className='w-auto flex flex-row items-center justify-between'>
                 <form action="submit" className='flex flex-row border rounded-full border-primary-color gap-6 justify-between md:gap-16'>
-                    <input type="text" placeholder='What do you want to learn?' className='pr-2 placeholder:text-sm pl-4 rounded-full'/>
+                    <input type="text" placeholder='What do you want to learn?' className='pr-2 placeholder:text-sm pl-4 rounded-full focus:outline-none'/>
                     <button className='text-sm bg-primary-color px-3 py-2 rounded-full text-white'>Search</button>
                 </form>
             </div>
@@ -18,7 +18,7 @@ const Courses = () => {
         <div className='flex flex-col justify-center items-center gap-4 md:flex-row md:items-stretch'>
             {
                 course.map(learn => (
-                    <div className='max-w-80 border rounded-3xl md:w-full flex-wrap shadow-lg'>
+                    <div className='max-w-80 border rounded-3xl md:w-full shadow-lg'>
                         <img src={learn.image} alt="" className='w-96'/>
                         <div className='py-3 px-4 flex flex-col gap-2'>
                             <h1 className='text-md font-bold'>{learn.course}</h1>
