@@ -3,6 +3,7 @@ import Hero from "./Components/Hero"
 import FeaturedCategories from "./Components/FeaturedCategories"
 import Learners from "./Components/Learners"
 import Courses from "./Components/Courses"
+import Pricing from "./Components/Pricing"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <FeaturedCategories />
       <Learners />
       <Courses />
+      <Pricing />
     </div>
     </>
   )
