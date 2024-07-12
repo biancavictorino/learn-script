@@ -4,6 +4,7 @@ import FeaturedCategories from "./Components/FeaturedCategories"
 import Learners from "./Components/Learners"
 import Courses from "./Components/Courses"
 import Pricing from "./Components/Pricing"
+import TeachScript from "./Components/TeachScript"
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Learners />
       <Courses />
       <Pricing />
+      <TeachScript />
     </div>
     </>
   )
