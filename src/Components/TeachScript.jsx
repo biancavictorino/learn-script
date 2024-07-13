@@ -12,7 +12,6 @@ const TeachScript = () => {
             <p className='text-left font-light text-sm leading-6'>It's easy to apply! Submit your resume, a brief video introduction, and the programming languages you'd like to teach. Our team will review your application and get in touch to discuss the next steps.</p>
             <button className='text-primary-color border rounded-full py-2 px-4 border-primary-color text-xs'>Be an Instructor</button>
         </div>
-
     </div>
   )
 }

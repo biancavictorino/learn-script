@@ -5,6 +5,7 @@ import Learners from "./Components/Learners"
 import Courses from "./Components/Courses"
 import Pricing from "./Components/Pricing"
 import TeachScript from "./Components/TeachScript"
+import Footer from "./Components/Footer"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Courses />
       <Pricing />
       <TeachScript />
+      <Footer />
     </div>
     </>
   )
