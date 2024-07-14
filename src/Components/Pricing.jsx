@@ -1,6 +1,7 @@
 import React from 'react'
 import Check from '../assets/Check.svg'
 import PrimaryButton from './PrimaryButton'
+import SecondaryButton from './SecondaryButton'
 
 const Pricing = () => {
   return (
@@ -53,7 +54,7 @@ const Pricing = () => {
                         <h1 className='font-bold text-4xl'>$49</h1>
                         <p className='text-sm'>/month</p>
                     </div>
-                    <PrimaryButton text={"Try LearnScript Premium"}/>
+                    <SecondaryButton text={"Try LearnScript Premium"}/>
                 </div>
 
                 <div className='flex flex-col gap-3'>
@@ -91,7 +92,7 @@ const Pricing = () => {
                         <h1 className='font-bold text-4xl'>$89</h1>
                         <p className='text-sm'>/month</p>
                     </div>
-                    <PrimaryButton text={"Try Learn-Script Teams"}/>
+                    <SecondaryButton text={"Try Learn-Script Teams"}/>
                     <p className='text-center text-sm font-light'>For 4-50 Users</p>
                 </div>
 

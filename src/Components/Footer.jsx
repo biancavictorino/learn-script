@@ -6,7 +6,7 @@ const Footer = () => {
         <div className='md:w-2/5'>
             <h1 className='text-2xl font-bold'>Learn<span className='text-primary-color'>Script.</span></h1>
         </div>
-        <div className='flex flex-col gap-10 text-primary-color md:flex-row md:w-3/5 md:justify-around'>
+        <div className='flex flex-col gap-10 text-primary-color md:flex-row md:w-3/5 md:justify-around text-sm'>
             <div className='flex flex-col gap-3'>
                 <a href="" className='w-fit' >Courses</a>
                 <a href="" className='w-fit'>Pricing</a>

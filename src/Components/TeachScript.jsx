@@ -1,5 +1,6 @@
 import React from 'react'
 import Teach from '../assets/teach-icon.png'
+import SecondaryButton from './SecondaryButton'
 
 const TeachScript = () => {
   return (
@@ -10,7 +11,7 @@ const TeachScript = () => {
         <div className='flex flex-col items-start gap-4 md:w-1/2'>
             <h1 className='text-left text-2xl text-primary-color pr-9 md:text-3xl md:w-5/6'>Ignite Your Teaching Potential with TeachScript!</h1>
             <p className='text-left font-light text-sm leading-6'>It's easy to apply! Submit your resume, a brief video introduction, and the programming languages you'd like to teach. Our team will review your application and get in touch to discuss the next steps.</p>
-            <button className='text-primary-color border rounded-full py-2 px-4 border-primary-color text-xs'>Be an Instructor</button>
+            <SecondaryButton text={"Be an Instructor"}/>
         </div>
     </div>
   )

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import SecondaryButton from './SecondaryButton';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -35,7 +36,7 @@ const Navbar = () => {
         </div>
         <div className='flex flex-row gap-2 items-center text-sm'>
             <a href="" className='hidden md:flex text-primary-color font-medium'>Login</a>
-            <button className='text-primary-color border rounded-full py-2 px-4 border-primary-color text-xs'>Join For Free</button>
+            <SecondaryButton text={"Join for Free"}/>
         </div>
         <svg onClick={handleOpen} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 md:hidden">
             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
