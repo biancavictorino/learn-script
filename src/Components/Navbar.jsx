@@ -30,7 +30,7 @@ const Navbar = () => {
             <div className='search-bar w-auto border flex flex-row items-center rounded-full border-primary-color'>
                 <form action="submit" className='flex flex-row gap-6'>
                     <input type="text" placeholder='What do you want to learn?' className='pr-2 placeholder:text-sm pl-4 rounded-full focus:outline-none'/>
-                    <button className='text-sm bg-primary-color px-3 py-2 rounded-full text-white'>Search</button>
+                    <button className='text-xs bg-primary-color px-3 py-2 rounded-full text-white hover:bg-white hover:text-primary-color border border-primary-color'>Search</button>
                 </form>
             </div>
         </div>

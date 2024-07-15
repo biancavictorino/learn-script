@@ -10,12 +10,12 @@ const Courses = () => {
             <div className='w-auto flex flex-row items-center justify-between'>
                 <form action="submit" className='flex flex-row border rounded-full border-primary-color gap-6 justify-between md:gap-16'>
                     <input type="text" placeholder='What do you want to learn?' className='pr-2 placeholder:text-sm pl-4 rounded-full focus:outline-none'/>
-                    <button className='text-sm bg-primary-color px-3 py-2 rounded-full text-white'>Search</button>
+                    <button className='text-sm bg-primary-color px-3 py-2 rounded-full text-white hover:bg-white hover:text-primary-color border border-primary-color'>Search</button>
                 </form>
             </div>
         </div>
         
-        <div className='flex flex-col justify-center items-center gap-4 md:flex-row md:items-stretch'>
+        <div className='flex flex-col justify-center items-center gap-4 md:flex-row md:items-stretch' data-aos='fade-right'>
             {
                 course.map(learn => (
                     <div className='max-w-80 border rounded-3xl md:w-full shadow-lg'>

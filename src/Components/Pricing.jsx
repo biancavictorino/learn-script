@@ -5,14 +5,14 @@ import SecondaryButton from './SecondaryButton'
 
 const Pricing = () => {
   return (
-    <div className='px-8 py-12 flex flex-col items-center justify-center gap-4 md:px-28 md:py-20 md:gap-8'>
+    <div className='px-8 py-12 flex flex-col items-center justify-center gap-4 md:px-28 md:py-20 md:gap-8 overflow-hidden'>
         <div className='flex flex-col gap-2 items-center'>
             <h1 className='text-center text-2xl text-primary-color'>Invest In Your Coding Journey</h1>
             <p className='text-center text-sm font-light leading-6 md:w-1/2'>We offer a variety of <span className='text-primary-color'>awesome plans</span> to fit in your coding goals and budget. No matter if you're a complete beginner or a coding rockstar in the making, we have something for you!</p>
         </div>
 
         <div className='grid grid-rows-3 gap-4 md:grid-cols-3 md:grid-rows-1'>
-            <div className='card-1 border border-primary-color flex flex-col justify-center items-center px-8 py-12 rounded-2xl gap-12 shadow-lg'>
+            <div className='card-1 border border-primary-color flex flex-col justify-center items-center px-8 py-12 rounded-2xl gap-12 shadow-lg' data-aos='flip-left'>
                 <div className='heading flex flex-col justify-center items-center gap-2'>
                     <h1 className='text-center text-text-color font-bold text-2xl'>Learn<span className='text-primary-color'>Script</span> <span className='font-normal'>Pro</span></h1>
                     <p className='text-center text-md font-light leading-6'>Focuses on essential skills, practical learning, and affordability for students.</p>
@@ -43,7 +43,7 @@ const Pricing = () => {
                 </div>
             </div> 
 
-            <div className='card-2 border border-primary-color flex flex-col justify-center items-center px-8 py-12 rounded-2xl gap-12 shadow-lg'>
+            <div className='card-2 border border-primary-color flex flex-col justify-center items-center px-8 py-12 rounded-2xl gap-12 shadow-lg' data-aos='flip-left'>
                 <div className='heading flex flex-col justify-center items-center gap-2'>
                     <h1 className='text-center text-text-color font-bold text-2xl'>Learn<span className='text-primary-color'>Script</span> <span className='font-normal'>Premium</span></h1>
                     <p className='text-center text-md font-light leading-6'>Highlights the extensive course selection, personalized learning experience, and flexible learning format.</p>
@@ -81,7 +81,7 @@ const Pricing = () => {
                 </div>
             </div>  
 
-            <div className='card-3 border border-primary-color flex flex-col justify-center items-center px-8 py-12 rounded-2xl gap-12 shadow-lg'>
+            <div className='card-3 border border-primary-color flex flex-col justify-center items-center px-8 py-12 rounded-2xl gap-12 shadow-lg' data-aos='flip-left'>
                 <div className='heading flex flex-col justify-center items-center gap-2'>
                     <h1 className='text-center text-text-color font-bold text-2xl'>Learn<span className='text-primary-color'>Script</span> <span className='font-normal'>Teams</span></h1>
                     <p className='text-center text-md font-light leading-6'>Businesses and organizations looking to upskill their workforce or train new hires.</p>
