@@ -18,7 +18,7 @@ const Courses = () => {
         <div className='flex flex-col justify-center items-center gap-4 md:flex-row md:items-stretch' data-aos='fade-right'>
             {
                 course.map(learn => (
-                    <div className='max-w-80 border rounded-3xl md:w-full shadow-lg'>
+                    <div className='max-w-80 border rounded-3xl md:w-full shadow-lg transition-transform transform hover:-translate-y-2'>
                         <img src={learn.image} alt="" className='w-96'/>
                         <div className='py-3 px-4 flex flex-col gap-2'>
                             <h1 className='text-md font-bold'>{learn.course}</h1>

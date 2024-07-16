@@ -24,7 +24,7 @@ const FeaturedCategories = () => {
             <div className='flex flex-row gap-4 lg:w-1/2'>
                 {
                     category1.map(cat1 => (
-                        <div className='w-1/2 shadow-lg rounded-3xl pb-6 flex flex-col justify-between h-full'>
+                        <div className='w-1/2 shadow-lg rounded-3xl pb-6 flex flex-col justify-between h-full transition-transform transform hover:-translate-y-2'>
                             <div className='flex flex-col flex-grow'>
                                 <img className='lg:w-full' src={cat1.image} alt="" />
                                 <h1 className='font-semibold px-5 pt-3'>{cat1.title}</h1>
@@ -49,7 +49,7 @@ const FeaturedCategories = () => {
             <div className='flex flex-row gap-4 lg:w-1/2'>
                 {
                     category2.map(cat2 => (
-                        <div className='w-1/2 shadow-lg rounded-3xl pb-6 flex flex-col justify-between h-full'>
+                        <div className='w-1/2 shadow-lg rounded-3xl pb-6 flex flex-col justify-between h-full transition-transform transform hover:-translate-y-1'>
                             <div className='flex flex-col flex-grow'>
                                 <img className='lg:w-full' src={cat2.image} alt="" />
                                 <h1 className='font-semibold px-5 pt-3'>{cat2.title}</h1>
