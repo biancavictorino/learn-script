@@ -22,10 +22,10 @@ const Navbar = () => {
         </div>
         <div className='hidden md:flex md:flex-row gap-24 font-light items-center'>
             <div className='flex flex-row gap-6'>
-                <a href="">Courses</a>
-                <a href="">Pricing</a>
-                <a href="">TeachScript</a>
-                <a href="">FAQ</a>
+                <a href="" className='hover:text-primary-color'>Courses</a>
+                <a href="" className='hover:text-primary-color'>Pricing</a>
+                <a href="" className='hover:text-primary-color'>TeachScript</a>
+                <a href="" className='hover:text-primary-color'>FAQ</a>
             </div>
             <div className='search-bar w-auto border flex flex-row items-center rounded-full border-primary-color'>
                 <form action="submit" className='flex flex-row gap-6'>
@@ -43,10 +43,10 @@ const Navbar = () => {
         </svg>
 
         <div className={`${menuOpen ? 'flex flex-col fixed bg-white shadow-lg right-0 top-0 h-screen w-3/4 z-40 justify-center items-center gap-6' : 'hidden'}`}>
-            <a href="">Courses</a>
-            <a href="">Pricing</a>
-            <a href="">TeachScript</a>
-            <a href="">FAQ</a>
+            <a href="" className='hover:text-primary-color' >Courses</a>
+            <a href="" className='hover:text-primary-color'>Pricing</a>
+            <a href="" className='hover:text-primary-color'>TeachScript</a>
+            <a href="" className='hover:text-primary-color'>FAQ</a>
             <svg onClick={handleOpen} className='w-6 h-6 right-8 top-8' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
             </svg>
